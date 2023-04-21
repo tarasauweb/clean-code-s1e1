@@ -40,10 +40,6 @@ button:hover {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .header { text-align: center;
-  }
-}
 /* main */
 .main{
     display: block;
@@ -131,15 +127,21 @@ button:hover {
 }
 
 /* Edit Task */
-.complite__item .complite__input {
+.todo__input{
     display:none
 }
 
-.complite__input input[type=text] {
-    display:inline-block;
+.todo__item_edit .todo__input{
+    display:inline-block !important;
     width:224px
 }
 
-ul li.editMode label {
+.todo__item_edit .todo__task{
     display:none;
 }
+/* media  */
+
+@media (max-width:768px) {
+    .header { text-align: center;
+    }
+  }
