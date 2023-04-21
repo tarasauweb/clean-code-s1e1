@@ -1,151 +1,151 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 ul {
-    margin:0;
-    padding: 0px;
+  margin:0;
+  padding: 0px;
 }
 li, 
 h3 {
-    list-style:none;
+  list-style:none;
 }
 input,
 button {
-    outline:none;
+  outline:none;
 }
 button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
 /* Heading */
 .header {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 .header 
 .header__img {
-    width: 100%;
+  width: 100%;
 }
 .header 
 .header__more-inf {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 /* main */
 .main {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 /* New Task */
 .task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 .add-item__wrapper {
-    display: flex;
+  display: flex;
 }
 .todo__title {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
-    display: block;
-    margin: 0 0 20px;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 0 20px;
 }
 .task[type="text"] {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 .task:focus {
-    color: #333;
+  color: #333;
 }
 .add-item__task {
-    width: 318px;
+  width: 318px;
 }
 
 /* Task list */
 .todo__item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .todo__item > * {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .todo__checkbox {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 .todo__task {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 .todo__input {
-    width: 226px;
+  width: 226px;
 }
 .todo__img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 .todo__delete 
 .todo__img:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 .complite__item 
 .complite__label {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .todo__input {
-    display:none;
+  display:none;
 }
 
 .todo__item_edit 
 .todo__input {
-    display:inline-block !important;
-    width:224px;
+  display:inline-block !important;
+  width:224px;
 }
 
 .todo__item_edit 
 .todo__task {
-    display:none;
+  display:none;
 }
 /* media  */
 
@@ -154,5 +154,5 @@ button:hover {
   .header { 
     text-align: center;
   }
-  
+
 }
