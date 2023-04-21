@@ -15,9 +15,9 @@
   </header>
   <main class="main">
     <section class="add-item">
-      <h3 for="add-item__title">Add Item</h3>
+      <h3 class="todo__title add-item__title">Add Item</h3>
       <div class="add-item__wrapper">
-        <input id="new-task" class="add-item__task" type="text">
+        <input id="new-task" class="add-item__task task" type="text">
         <button class="add-item__btn">Add</button>
     </div>
     </section>
@@ -25,18 +25,18 @@
         <h3 class="todo__title">Todo</h3>
         <ul class="todo__items">
           <li class="todo__item">
-            <input type="checkbox" class="todo__input">
-            <label class="todo__task">Pay Bills</label>
-            <input type="text" class="todo__input">
+            <input type="checkbox" class="todo__checkbox">
+            <label class="todo__task task">Pay Bills</label>
+            <input type="text" class="todo__input task">
             <button class="todo__edit">Edit</button>
             <button class="todo__delete">
               <img src="./remove.svg" alt="remove" class="todo__img">
             </button>
           </li>
-          <li class="todo__item">
-            <input type="checkbox" class="todo__input">
-            <label class="todo__task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="todo__input">
+          <li class="todo__item todo__item_edit">
+            <input type="checkbox" class="todo__checkbox">
+            <label class="todo__task task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="todo__input task">
             <button class="todo__edit">Save</button>
             <button class="todo__delete">
               <img src="./remove.svg" alt="remove" class="todo__img">
@@ -45,15 +45,15 @@
         </ul>
     </section>
     <section class="complite">
-      <h3 class="complite__task">Completed</h3>
+      <h3 class="todo__title complite__task">Completed</h3>
       <ul class="complite__items">
-        <li class="complite__item">
-          <input type="checkbox" checked class="complite__input">
-          <label class="complite__task">See the Doctor</label>
-          <input type="text" class="task" class="complite__input">
+        <li class="todo__item complite__item">
+          <input type="checkbox" checked class="todo__checkbox">
+          <label class="todo__task complite__label task">See the Doctor</label>
+          <input type="text" class="complite__input task">
           <button class="complite__edit">Edit</button>
-          <button class="complite__delete">
-            <img src="./remove.svg" alt="remove" class="complite__img">
+          <button class="todo__delete complite__delete">
+            <img src="./remove.svg" alt="remove" class="todo__img complite__img">
           </button>
         </li>
       </ul>
