@@ -50,7 +50,7 @@ button:hover {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-item__wrapper {
     display: flex;
@@ -109,7 +109,7 @@ button:hover {
     width: 226px;
 }
 .todo__input {
-    width: 226px
+    width: 226px;
 }
 .todo__img {
     height: 2em;
@@ -128,12 +128,12 @@ button:hover {
 
 /* Edit Task */
 .todo__input{
-    display:none
+    display:none;
 }
 
 .todo__item_edit .todo__input{
     display:inline-block !important;
-    width:224px
+    width:224px;
 }
 
 .todo__item_edit .todo__task{
@@ -142,6 +142,7 @@ button:hover {
 /* media  */
 
 @media (max-width:768px) {
-    .header { text-align: center;
-    }
+  .header { 
+    text-align: center;
   }
+}
