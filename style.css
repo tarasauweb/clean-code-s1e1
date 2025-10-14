@@ -35,11 +35,11 @@
   display: block;
   text-align: right;
 }
-.header 
+.header, 
 .header__img {
   width: 100%;
 }
-.header 
+.header, 
 .header__more-inf {
   font-family: fantasy, cursive;
 }
@@ -120,13 +120,13 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.todo__delete 
+.todo__delete, 
 .todo__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.complite__item 
+.complite__item, 
 .complite__label {
   text-decoration: line-through;
   color: #888;
@@ -137,22 +137,20 @@
   display: none;
 }
 
-.todo__item_edit 
+.todo__item_edit,
 .todo__input {
   display: inline-block !important;
   width: 224px;
 }
 
-.todo__item_edit 
+.todo__item_edit,
 .todo__task {
   display: none;
 }
 /* media  */
 
 @media (max-width:768px) {
-
   .header { 
     text-align: center;
   }
-
 }
